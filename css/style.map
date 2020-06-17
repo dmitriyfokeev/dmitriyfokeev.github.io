@@ -1,0 +1,28 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../sass/style.sass",
+		"../sass/base/_fonts.sass",
+		"../sass/base/_variables.sass",
+		"../sass/base/_mixins.sass",
+		"../sass/blocks/_general.sass",
+		"../sass/blocks/_media.sass",
+		"../sass/blocks/_promo.sass",
+		"../sass/blocks/_header.sass",
+		"../sass/blocks/_button.sass"
+	],
+	"sourcesContent": [
+		"@import \"base/fonts\";\n@import \"base/variables\";\n@import \"base/mixins\";\n@import \"blocks/general\";\n@import \"blocks/media\";\n@import \"blocks/promo\";\n@import \"blocks/header\";\n@import \"blocks/button\";\n",
+		"@font-face {\n    font-family: 'Museo Sans 300 Light';\n    src: url('../fonts/MuseoSansCyrl-300.eot');\n    src: url('../fonts/MuseoSansCyrl-300.eot?#iefix') format('embedded-opentype'),url('../fonts/MuseoSansCyrl-300.woff') format('woff'),url('../fonts/MuseoSansCyrl-300.ttf') format('truetype');\n    font-weight: normal;\n    font-style: normal; }\n\n\n@font-face {\n    font-family: 'Museo Sans 500 Medium';\n    src: url('../fonts/MuseoSansCyrl-500.eot');\n    src: url('../fonts/MuseoSansCyrl-500.eot?#iefix') format('embedded-opentype'),url('../fonts/MuseoSansCyrl-500.woff') format('woff'),url('../fonts/MuseoSansCyrl-500.ttf') format('truetype');\n    font-weight: normal;\n    font-style: normal; }\n\n\n@font-face {\n    font-family: 'Museo Sans 700 Bold';\n    src: url('../fonts/MuseoSansCyrl-700.eot');\n    src: url('../fonts/MuseoSansCyrl-700.eot?#iefix') format('embedded-opentype'),url('../fonts/MuseoSansCyrl-700.woff') format('woff'),url('../fonts/MuseoSansCyrl-700.ttf') format('truetype');\n    font-weight: normal;\n    font-style: normal; }\n\n\n",
+		"",
+		"",
+		"\n.container {\n  max-width: 1000px; }\n\n",
+		"\n\n",
+		".promo {\n  min-height: 650px;\n  background: url(../../img/bg/bg_run-girl.jpg) center (center / cover) no-repeat;\n  padding: 21px 0 93px 0; }\n",
+		".header {\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    &__logo {\n        width: 250px;\n        img {\n            width: 100%; } }\n    &__oficial {\n        color: #ffffff;\n        font-family: \"Museo Sans 500 Medium\";\n        font-size: 12px;\n        font-weight: 500;\n        text-align: center;\n        span {\n            display: block;\n            color: #ffffff;\n            font-family: \"Museo Sans 700 Bold\";\n            font-size: 18px;\n            font-weight: 700;\n            text-align: center; } }\n    &__phone {\n        display: block;\n        color: #ffffff;\n        font-family: \"Museo Sans 700 Bold\";\n        font-size: 18px;\n        font-weight: 700;\n        text-align: center;\n        &:hover {\n            color: #ffffff;\n            text-decoration: none; } }\n    &__contacts {\n        display: flex;\n        flex-direction: column;\n        align-items: flex-end; } }\n\n",
+		".button {\n        display: block;\n        text-align: center;\n        width: 150px;\n        height: 30px;\n        border-radius: 5px;\n        background-color: #c70101;\n        font-family: \"Museo Sans 500\";\n        font-size: 12px;\n        font-weight: 500;\n        text-transform: uppercase;\n        color: #ffffff;\n        border: none; }\n\n"
+	],
+	"names": [],
+	"mappings": "ACAA,UAAU;EACN,WAAW,EAAE,sBAAsB;EACnC,GAAG,EAAE,qCAAqC;EAC1C,GAAG,EAAE,4CAA4C,CAAC,2BAA2B,EAAC,sCAAsC,CAAC,cAAc,EAAC,qCAAqC,CAAC,kBAAkB;EAC5L,WAAW,EAAE,MAAM;EACnB,UAAU,EAAE,MAAM;;;AAGtB,UAAU;EACN,WAAW,EAAE,uBAAuB;EACpC,GAAG,EAAE,qCAAqC;EAC1C,GAAG,EAAE,4CAA4C,CAAC,2BAA2B,EAAC,sCAAsC,CAAC,cAAc,EAAC,qCAAqC,CAAC,kBAAkB;EAC5L,WAAW,EAAE,MAAM;EACnB,UAAU,EAAE,MAAM;;;AAGtB,UAAU;EACN,WAAW,EAAE,qBAAqB;EAClC,GAAG,EAAE,qCAAqC;EAC1C,GAAG,EAAE,4CAA4C,CAAC,2BAA2B,EAAC,sCAAsC,CAAC,cAAc,EAAC,qCAAqC,CAAC,kBAAkB;EAC5L,WAAW,EAAE,MAAM;EACnB,UAAU,EAAE,MAAM;;;;AGpBtB,AAAA,UAAU,CAAC;EACT,SAAS,EAAE,MAAM;CAAG;;;AEFtB,AAAA,MAAM,CAAC;EACL,UAAU,EAAE,KAAK;EACjB,UAAU,EAAE,iCAAiC,CAAC,MAAM,CAAC,YAAgB,CAAC,SAAS;EAC/E,OAAO,EAAE,aAAa;CAAG;;;ACH3B,AAAA,OAAO,CAAC;EACJ,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;EAC9B,WAAW,EAAE,MAAM;CA+BW;;;AA9B7B,AAAD,aAAO,CAAC;EACJ,KAAK,EAAE,KAAK;CAEQ;;;AAHvB,AAEG,aAFG,CAEH,GAAG,CAAC;EACA,KAAK,EAAE,IAAI;CAAG;;;AACrB,AAAD,gBAAU,CAAC;EACP,KAAK,EAAE,OAAO;EACd,WAAW,EAAE,uBAAuB;EACpC,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,GAAG;EAChB,UAAU,EAAE,MAAM;CAOS;;;AAZ9B,AAMG,gBANM,CAMN,IAAI,CAAC;EACD,OAAO,EAAE,KAAK;EACd,KAAK,EAAE,OAAO;EACd,WAAW,EAAE,qBAAqB;EAClC,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,GAAG;EAChB,UAAU,EAAE,MAAM;CAAG;;;AAC5B,AAAD,cAAQ,CAAC;EACL,OAAO,EAAE,KAAK;EACd,KAAK,EAAE,OAAO;EACd,WAAW,EAAE,qBAAqB;EAClC,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,GAAG;EAChB,UAAU,EAAE,MAAM;CAGY;;;AATjC,AAOG,cAPI,AAOH,MAAM,CAAC;EACJ,KAAK,EAAE,OAAO;EACd,eAAe,EAAE,IAAI;CAAG;;;AAC/B,AAAD,iBAAW,CAAC;EACR,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,WAAW,EAAE,QAAQ;CAAG;;;AClChC,AAAA,OAAO,CAAC;EACA,OAAO,EAAE,KAAK;EACd,UAAU,EAAE,MAAM;EAClB,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,IAAI;EACZ,aAAa,EAAE,GAAG;EAClB,gBAAgB,EAAE,OAAO;EACzB,WAAW,EAAE,gBAAgB;EAC7B,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,GAAG;EAChB,cAAc,EAAE,SAAS;EACzB,KAAK,EAAE,OAAO;EACd,MAAM,EAAE,IAAI;CAAG"
+}
